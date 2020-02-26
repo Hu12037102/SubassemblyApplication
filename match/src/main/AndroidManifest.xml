@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.match">
+    <application
+        android:name="com.example.comm.app.BaseApplication"
+        android:icon="@mipmap/app_launcher"
+        android:label="@string/app_name"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity
+            android:name=".MatchActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"/>
+    </application>
+</manifest>

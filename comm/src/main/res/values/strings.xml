@@ -1,0 +1,694 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name" translatable="false">组件化</string>
+    <!-- <string name="app_name" translatable="false">踢球么测试版</string>-->
+    <string name="me" translatable="false">我</string>
+    <string name="my_about_ball" translatable="false">我的约球</string>
+    <string name="my_order" translatable="false">我的订单</string>
+    <string name="my_team" translatable="false">我的球队</string>
+    <string name="ball_team" translatable="false">球队</string>
+    <string name="my_message" translatable="false">我的消息</string>
+    <string name="message" translatable="false">消息</string>
+    <string name="my_dynamic_state" translatable="false">我的动态</string>
+    <string name="my_as_the_referee" translatable="false">成为裁判</string>
+    <string name="my_referee_record" translatable="false">我的裁判记录</string>
+    <string name="apply_to_become_referee" translatable="false">申请成为裁判</string>
+    <string name="invite_friend" translatable="false">邀请好友</string>
+    <string name="invite_referee" translatable="false">邀请裁判</string>
+    <string name="audit_result" translatable="false">审核结果</string>
+    <string name="banding" translatable="false">已绑定</string>
+    <string name="audit_result_error" translatable="false">审核结果异常</string>
+    <string name="get_approved" translatable="false">通过审核</string>
+    <string name="audit_failure" translatable="false">审核失败</string>
+    <string name="audit_failure_hint" translatable="false">您提交的认证信息未通过审核</string>
+    <string name="get_approved_hint" translatable="false">恭喜您通过审核，可以执法比赛</string>
+    <string name="apply_to_be_a_judge_on_the_platform" translatable="false">在平台申请成为裁判</string>
+    <string name="use_the_platform_to_enforce_the_game" translatable="false">通过平台去执法比赛</string>
+    <string name="get_paid_from_the_platform" translatable="false">从平台上获得报酬</string>
+    <string name="apply_referee_hint" translatable="false">注：执法报酬，每次比赛为80元，然后再根据裁判证件等级进行加成，
+        三级裁判增加10%，以此类推，到国际级增加40%。 需要绑定微信号，报酬可提取到微信</string>
+    <string name="please_invite_the_referee" translatable="false">请邀请裁判</string>
+    <string name="not_find_this_order" translatable="false">没有找到该订单</string>
+    <string name="not_find_this_topic" translatable="false">没有找到该话题</string>
+    <string name="not_follow_content" translatable="false">暂无关注内容</string>
+    <string name="loading">正在加载中...</string>
+
+    <string name="not_find_this_referee" translatable="false">没有找到该裁判</string>
+    <string name="not_find_this_venue_evaluate" translatable="false">没有找到该场馆评价</string>
+    <string name="invite" translatable="false">邀请</string>
+    <string name="inviting" translatable="false">已邀请</string>
+    <string name="please_selector_ball_team" translatable="false">请选择球队</string>
+    <string name="selector_ball_team" translatable="false">选择球队</string>
+    <string name="ball_team_clothing_color" translatable="false">球衣颜色</string>
+    <string name="invite_referee_hint" translatable="false">最多邀请三个，无人应邀由系统安排，如24小时内无人应邀，则由平台进行安排</string>
+    <string name="top_month_amount_of_law_enforcement" translatable="false">上月执法量</string>
+    <string name="referee_class" translatable="false">裁判等级</string>
+    <string name="referee_class_s" translatable="false">裁判等级：%s</string>
+    <string name="feedback_type" translatable="false">反馈类型</string>
+    <string name="feedback_content_hint" translatable="false">说说您要反馈的信息吧~</string>
+    <string name="selector_feedback_type" translatable="false">选择反馈类别</string>
+    <string name="please_selector_feedback_type" translatable="false">请选择反馈类别</string>
+    <string name="please_inout_feedback_content_or_image" translatable="false">请填写反馈内容或者上传反馈图片</string>
+    <string name="please_selector_ball_clothing_color" translatable="false">请选择球衣颜色</string>
+    <string name="you_sure_give_up_to_submit" translatable="false">您确定放弃提交意见反馈</string>
+    <string name="selector_ball_clothing_color" translatable="false">选择球衣颜色</string>
+    <string name="setting" translatable="false">设置</string>
+    <string name="my_booking">我的订场</string>
+    <string name="click_login_or_register" translatable="false">点击登录/注册</string>
+    <string name="password_login" translatable="false">密码登录</string>
+    <string name="welcome_back" translatable="false">欢迎回来</string>
+    <string name="phone_number" translatable="false">手机号</string>
+    <string name="message_code" translatable="false">验证码</string>
+    <string name="gain_message_code" translatable="false">获取验证码</string>
+    <string name="forget_the_password" translatable="false">忘记密码?</string>
+    <string name="reset_passwords" translatable="false">重置密码</string>
+    <string name="forget_password" translatable="false">忘记密码</string>
+    <string name="uploading_fail_again" translatable="false">上传文件失败！请重试！</string>
+    <string name="please_choose_team_logo" translatable="false">请选择球队logo</string>
+    <string name="please_input_team_name" translatable="false">请输入球队队名</string>
+    <string name="please_input_your_name" translatable="false">请填写您的姓名</string>
+    <string name="please_update_your_referee_photo" translatable="false">请上传您穿着裁判服的照片</string>
+    <string name="please_update_your_referee_grading_certificate" translatable="false">请上传您的裁判等级证书</string>
+    <string name="you_sure_of_submission_of_accreditation" translatable="false">您确定放弃提交裁判资质认证</string>
+    <string name="please_selector_referee_class" translatable="false">请选择裁判等级</string>
+    <string name="please_selector_type" translatable="false">请选择球类类型</string>
+    <string name="selector_referee_grade_book" translatable="false">选择裁判等级证书</string>
+    <string name="please_input_number" translatable="false">请输入号码</string>
+    <string name="please_selector_shirt_color" translatable="false">请选择球衣颜色</string>
+    <string name="ball_team_details" translatable="false">球队信息</string>
+    <string name="ball_team_member" translatable="false">球队成员</string>
+    <string name="ball_shirt_color" translatable="false">球衣颜色</string>
+    <string name="photo" translatable="false">照片</string>
+    <string name="referee_photo_hint" translatable="false">请穿裁判服，自备哨子和红黄牌等装备</string>
+    <string name="does_not_need_to_upload_id_photos" translatable="false">业余则不需要上传证件照片</string>
+    <string name="click_update_photo" translatable="false">点击上传照片</string>
+    <string name="click_update_referee_details_photo" translatable="false">上传裁判证件信息页照片</string>
+    <string name="commit_succeed_please_sleep" translatable="false">提交成功，耐心等待审核</string>
+    <string name="referee_certificate_grade" translatable="false">裁判证件等级</string>
+    <string name="upload_again" translatable="false">重新上传</string>
+    <string name="register_update" translatable="false">重新申请</string>
+    <string name="into_my_record_center" translatable="false">进入我的记录</string>
+    <string name="please_selector" translatable="false">请选择</string>
+    <string name="record_the_action" translatable="false">记录赛况</string>
+    <string name="password" translatable="false">密码</string>
+    <string name="login" translatable="false">登录</string>
+    <string name="my_focus" translatable="false">我的关注</string>
+    <string name="my_fans" translatable="false">我的粉丝</string>
+    <string name="please_selector_date" translatable="false">请选择日期</string>
+    <string name="please_selector_time" translatable="false">请选择时间</string>
+    <string name="wechat_login" translatable="false">微信登录</string>
+    <string name="register_account" translatable="false">注册账号</string>
+    <string name="phone_shortcut_login" translatable="false">手机快捷登录</string>
+    <string name="must_permission_please_allow" translatable="false">读取内存卡为必要权限，请允许！</string>
+    <string name="must_permission" translatable="false">请同意读取内存卡和定位权限，否则无法使用！</string>
+    <string name="please_sure_phone_number" translatable="false">请输入正确手机号</string>
+    <string name="regain_load_time" translatable="false">重新获取（%s）S</string>
+    <string name="register" translatable="false">注册</string>
+    <string name="next" translatable="false">下一步</string>
+    <string name="input_message_code" translatable="false">输入验证码</string>
+    <string name="setting_password" translatable="false">设置密码</string>
+    <string name="not_under_six_length_password" translatable="false">不少于6位</string>
+    <string name="phone_digits" translatable="false">0123456789</string>
+    <string name="go_selector_session" translatable="false">去选择场次</string>
+    <string name="image_text_details" translatable="false">图文详情</string>
+    <string name="service_error" translatable="false">服务器异常</string>
+    <string name="user_name_not_null" translatable="false">用户昵称不能为空！</string>
+    <string name="region" translatable="false">所在地区</string>
+    <string name="hint" translatable="false">提示</string>
+    <string name="this_phone_is_register" translatable="false">该手机号已经注册</string>
+    <string name="this_phone_not_register" translatable="false">该手机号没有注册</string>
+    <string name="go_register" translatable="false">去注册</string>
+    <string name="login_immediately" translatable="false">立即登录</string>
+    <string name="gprs_not_open" translatable="false">GPRS没有打开，请打开它</string>
+    <string name="go_open" translatable="false">去打开</string>
+    <string name="hot" translatable="false">热</string>
+    <string name="stick" translatable="false">置顶</string>
+    <string name="the_venue_booking" translatable="false">场馆预定</string>
+    <string name="about_ball_ball_friend" translatable="false">球友约球</string>
+    <string name="all_game" translatable="false">全部赛事</string>
+    <string name="there_are_no_related_events" translatable="false">没有相关的赛事！</string>
+    <string name="recommend" translatable="false">推荐</string>
+    <string name="about_recommend" translatable="false">相关推荐</string>
+    <string name="focus_and_fans" translatable="false">关注 %s | 粉丝 %s</string>
+    <string name="address_to_where" translatable="false">地址： %s</string>
+    <string name="about_rule" translatable="false">约球规则说明，点我查看规则</string>
+    <string name="about_rule_title" translatable="false">约球规则</string>
+    <string name="lack_of_the_referee" translatable="false">缺裁判</string>
+    <string name="lack_of_competitors" translatable="false">缺对手</string>
+    <string name="is_go_to_login" translatable="false">您还没有登陆，是否前去登陆？</string>
+    <string name="edit_my_details" translatable="false">编辑个人资料</string>
+    <string name="edit_my_data" translatable="false">编辑个人信息</string>
+    <string name="alter_head_photo" translatable="false">修改头像</string>
+    <string name="share_invite_friend_join" translatable="false">分享邀请好友加入</string>
+    <string name="name" translatable="false">姓名</string>
+    <string name="sex" translatable="false">性别</string>
+    <string name="birthday" translatable="false">生日</string>
+    <string name="stature" translatable="false">身高</string>
+    <string name="weight" translatable="false">体重</string>
+    <string name="update_password" translatable="false">修改密码</string>
+    <string name="bind_wechat" translatable="false">绑定微信</string>
+    <string name="modification" translatable="false">修改</string>
+    <string name="bind_wechat_hint" translatable="false">绑定微信号并关注踢球么-五华公众号，\n可以在微信端获得消息推送</string>
+    <string name="unbind" translatable="false">未绑定</string>
+    <string name="save" translatable="false">保存</string>
+    <string name="input_name" translatable="false">输入姓名</string>
+    <string name="cancel" translatable="false">取消</string>
+    <string name="sure" translatable="false">确定</string>
+    <string name="all_text" translatable="false">全文</string>
+    <string name="all_read_commit" translatable="false">查看全部评论（%s）</string>
+    <string name="choose_weight" translatable="false">选择体重</string>
+    <string name="choose_sex" translatable="false">选择性别</string>
+    <string name="choose_exercise_type" translatable="false">选择运动类型</string>
+    <string name="please_choose_exercise_type" translatable="false">请选择运动类型</string>
+    <string name="choose_height" translatable="false">选择身高</string>
+    <string name="choose_birthday" translatable="false">选择生日</string>
+    <string name="choose_address" translatable="false">选择地址</string>
+    <string name="man" translatable="false">男</string>
+    <string name="women" translatable="false">女</string>
+    <string name="not_setting" translatable="false">未设置</string>
+    <string name="album" translatable="false">相册</string>
+    <string name="send_comment" translatable="false">发表下评论吧</string>
+    <string name="hot_message" translatable="false">热门评论</string>
+    <string name="commit" translatable="false">提交</string>
+    <string name="please_input_message" translatable="false">请输入评论！</string>
+    <string name="please_input_message_code" translatable="false">请输入验证码</string>
+    <string name="watch_live" translatable="false">观看直播</string>
+    <string name="watch_collection" translatable="false">观看集锦</string>
+    <string name="collection" translatable="false">集锦</string>
+    <string name="vs" translatable="false">VS</string>
+    <string name="net_error" translatable="false">网络异常！</string>
+    <string name="live_no_start" translatable="false">直播尚未开始</string>
+    <string name="team_stats" translatable="false">球队统计</string>
+    <string name="game_send_comment_hint" translatable="false">1踢球吧对直播内容进行24小时巡查，禁止传播违法
+违规、封建迷信、暴力血腥、低俗色情、招嫖诈骗、违禁品
+等不良信息，坚决维护青少年精神文明健康。</string>
+    <string name="update_phone_number_title" translatable="false">更换绑定手机</string>
+    <string name="you_band_this_phone" translatable="false">您已经绑定了该手机</string>
+    <string name="band_phone_number" translatable="false">绑定手机号</string>
+    <string name="you_not_band_phone_number" translatable="false">请绑定手机号</string>
+    <string name="please_sure_and_read_agreement" translatable="false">请勾选并且认真阅读《用户协议》</string>
+    <string name="match_record" translatable="false">比赛记录</string>
+    <!--  空格-->
+    <string name="notice" translatable="false">系统通知</string>
+    <string name="game_id_error" translatable="false">比赛房间未找到！</string>
+    <string name="please_open_location" translatable="false">请打开定位权限！</string>
+    <string name="weight_not_zero" translatable="false">体重不能为0</string>
+    <string name="feedback" translatable="false">意见反馈</string>
+    <string name="about_we" translatable="false">关于我们</string>
+    <string name="versions" translatable="false">版本</string>
+    <string name="versions_explain" translatable="false">版本说明</string>
+    <string name="go_grade" translatable="false">去评分</string>
+    <string name="clear_cache" translatable="false">清理缓存</string>
+    <string name="user_agreement" translatable="false">用户协议</string>
+    <string name="login_out" translatable="false">退出登录</string>
+    <string name="m" translatable="false">%sM</string>
+    <string name="clear_cache_complete" translatable="false">清理缓存完成</string>
+    <string name="complete" translatable="false">完成</string>
+    <string name="from_data" translatable="false">来源：%s&#160;&#160;%s</string>
+    <string name="not_message" translatable="false">暂无评论</string>
+    <string name="your_sure_login_out" translatable="false">您确定退出登录？</string>
+    <string name="line_video_error" translatable="false">直播获取异常！</string>
+    <string name="cancel_weichat_login" translatable="false">取消微信登录！</string>
+    <string name="weichat_login_failed" translatable="false">微信登录失败！</string>
+    <string name="update_apk" translatable="false">版本更新</string>
+    <string name="check_for_updates" translatable="false">检查更新</string>
+    <string name="find_new_versions" translatable="false">发现新版本</string>
+    <string name="all_right_reserved" translatable="false">五华汇游文化传播有限公司版权所有</string>
+    <string name="not_more_data" translatable="false">没有更多数据哦</string>
+    <string name="edit_address_info" translatable="false">编辑收货信息</string>
+    <string name="consignee" translatable="false">收货人</string>
+    <string name="please_consignee_name" translatable="false">请输入收货人姓名</string>
+    <string name="please_input_phone_number" translatable="false">请输入手机号码</string>
+    <string name="please_input_sure_phone_number" translatable="false">请输入正确的手机号码</string>
+    <string name="please_input_you_phone_number" translatable="false">请输入您的手机号码</string>
+    <string name="please_enter_the_jersey_number" translatable="false">请输入球衣号码</string>
+    <string name="please_selector_main_location" translatable="false">请选择主位置</string>
+    <string name="please_selector_substitution_location" translatable="false">请选择替补位置</string>
+    <string name="not_find_ball_team_id" translatable="false">没有找到球队Id</string>
+    <string name="not_find_this_tickets">没有找到该门票</string>
+    <string name="not_more_this_tickets">没有预售的门票了</string>
+    <string name="address_data" translatable="false">详细地址</string>
+    <string name="please_input_address_data" translatable="false">请填写详细地址</string>
+    <string name="please_inout_team_name" translatable="false">请输入队名</string>
+    <string name="modify_shipping_address" translatable="false">修改收货地址</string>
+    <string name="add_shipping_address" translatable="false">新增收货地址</string>
+    <string name="message_my_address" translatable="false">管理我的收货地址</string>
+    <string name="please_selector_address" translatable="false">请选择省/市/区</string>
+    <string name="your_sure_delete_member_body" translatable="false">是否将%s从成员中删除？</string>
+    <string name="your_sure_delete_member_host" translatable="false">是否将</string>
+    <string name="my_prize" translatable="false">我的奖品</string>
+    <string name="you_not_installed_weichat" translatable="false">您还没有安装微信，是否前去下载</string>
+    <string name="camera_is_must_permission" translatable="false">相机为必要权限，请允许！</string>
+    <string name="search" translatable="false">搜索</string>
+    <string name="search_you_want_news" translatable="false">搜索您想了解的资讯</string>
+    <string name="please_input_search_content" translatable="false">请输入搜索内容</string>
+    <string name="recently_the_venue" translatable="false">最近场馆</string>
+    <string name="read_more_venue" translatable="false">查看更多场馆</string>
+    <string name="read_more_ball" translatable="false">查看更多约球</string>
+    <string name="read_more" translatable="false">查看更多</string>
+    <string name="friend_ball" translatable="false">球友约球</string>
+    <string name="title" translatable="false">标题</string>
+    <string name="period_of_validity" translatable="false">有效期:</string>
+    <string name="expiry_date_code" translatable="false">兑奖码:</string>
+    <string name="remark" translatable="false">备注:</string>
+    <string name="way" translatable="false">兑奖方式:</string>
+    <string name="have_change" translatable="false">已兑换</string>
+    <string name="out_off_date" translatable="false">已过期</string>
+    <string name="skip_s_second" translatable="false">跳过(%sS)</string>
+    <string name="experience_immediately" translatable="false">立即体验</string>
+    <string name="prize_data" translatable="false">%s%s</string>
+    <string name="line_prize_input_address" translatable="false">线上邮寄奖品，请先完善收货信息，才能发货</string>
+    <string name="resume_click_exit_app" translatable="false">再点击一次退出APP</string>
+    <string name="pleases_next_open" translatable="false">功能正在开发中...</string>
+    <string name="not_find_live" translatable="false">没有找到该直播</string>
+    <string name="video_recorded_error" translatable="false">视频解码错误</string>
+    <string name="original_password" translatable="false">原密码</string>
+    <string name="new_password" translatable="false">新密码</string>
+    <string name="sure_password" translatable="false">确定密码</string>
+    <string name="new_password_input_not_fit" translatable="false">新密码输入不一致</string>
+    <string name="you_update_password_succeed" translatable="false">您已经修改密码成功</string>
+    <string name="venue_introduce" translatable="false">场地介绍</string>
+    <string name="venue_details" translatable="false">场地情况</string>
+    <string name="user_evaluation" translatable="false">用户评价</string>
+    <string name="how_long_gradle" translatable="false">%s分</string>
+    <string name="address_s" translatable="false">地址：%s</string>
+    <string name="service_s" translatable="false">服务：%s</string>
+    <string name="residue_count_s" translatable="false">剩余%s场</string>
+    <string name="not_this_venue" translatable="false">没有该场馆</string>
+    <string name="grade" translatable="false">打分</string>
+    <string name="manger" translatable="false">管理</string>
+    <string name="read" translatable="false">查看</string>
+    <string name="leader_s" translatable="false">队长-%s</string>
+    <string name="leader" translatable="false">队长</string>
+    <string name="team_member" translatable="false">队员</string>
+    <string name="create_ball_team" translatable="false">创建球队</string>
+    <string name="edit_ball_team" translatable="false">编辑球队</string>
+    <string name="edit_ball_team_details" translatable="false">编辑球队信息</string>
+    <string name="ball_team_logo" translatable="false">球队logo</string>
+    <string name="team_name" translatable="false">队名</string>
+    <string name="type" translatable="false">类型</string>
+    <string name="ball_clothing_color" translatable="false">球衣颜色</string>
+    <string name="you_sure_call_this_phone" translatable="false">您确定拨打手机号:%s</string>
+    <string name="this_venue_not_phone" translatable="false">该场馆没有预留手机号码</string>
+    <string name="read_all_comment" translatable="false">查看全部评论</string>
+    <string name="read_all_comment_s" translatable="false">查看全部评论（%s）</string>
+    <string name="session_is_scheduled_to" translatable="false">场次预定</string>
+    <string name="make_a_block_booking" translatable="false">包场</string>
+    <string name="the_court_where_the_ball_is_to_be_played" translatable="false">待约球的场</string>
+    <string name="make_a_block_booking_rule" translatable="false">包场为支付全场费用,不支持广场约球</string>
+    <string name="money_make_booking" translatable="false">¥%s包场</string>
+    <string name="post_about_ball" translatable="false">发起约球</string>
+    <string name="s_post_about_ball" translatable="false">¥%s发起约球</string>
+    <string name="post_ball_hint" translatable="false">约球功能会将您的约球信息自动发布至广场，开球前一天没有球队应邀，则退款并关闭此约球。</string>
+    <string name="one_post_about_ball" translatable="false">1发起约球</string>
+    <string name="two_sure_order" translatable="false">2确认订单</string>
+    <string name="three_complete_pay" translatable="false">3完成支付</string>
+    <string name="complete_information" translatable="false">1完善信息</string>
+    <string name="upload_documents" translatable="false">2上传证件</string>
+    <string name="wait_for_review" translatable="false">3等待审核</string>
+    <string name="yuan_s" translatable="false">%s元</string>
+    <string name="yuan_s_cost_money" translatable="false">%s元\n费用+押金</string>
+    <string name="be_occupied" translatable="false">被占用</string>
+    <string name="time_end" translatable="false">%s结束</string>
+    <string name="read_ball_details" translatable="false">查看球队信息</string>
+    <string name="join_about_ball" translatable="false">参加约球</string>
+    <string name="wait_book_hint" translatable="false">约球为支付部分费用+押金,等待球友应邀,完赛后退还押金</string>
+    <string name="book_hint" translatable="false">包场为支付全场费用,不支持广场约球</string>
+    <string name="order_details" translatable="false">订单详情</string>
+    <string name="order_in_ten_minute" translatable="false">订单在10分钟内自动取消，请及时支付</string>
+    <string name="add_up_to_money_please_pay" translatable="false">合计:¥%s请支付</string>
+    <string name="sum_add" translatable="false">合计</string>
+    <string name="please_add_up_to_order" translatable="false">请认真核对信息，包场暂不提供裁判</string>
+    <string name="order_content" translatable="false">订单内容</string>
+    <string name="due_to_project" translatable="false">预定项目：</string>
+    <string name="due_to_date" translatable="false">预定日期：</string>
+    <string name="due_to_address" translatable="false">预定场地：</string>
+    <string name="due_to_phone" translatable="false">预留号码：</string>
+    <string name="more_details" translatable="false">更多信息</string>
+    <string name="pay_way" translatable="false">支付方式：</string>
+    <string name="order_original" translatable="false">订单原价：</string>
+    <string name="order_practical" translatable="false">实际价格：</string>
+    <string name="order_status" translatable="false">订单状态：</string>
+    <string name="me_agree_to_abide_by_user_agreement" translatable="false">我同意遵守《用户协议》</string>
+    <string name="this_order_not_exist" translatable="false">该订单不存在</string>
+    <string name="update_phone_number" translatable="false">修改手机号</string>
+    <string name="give_referee_judge" translatable="false">给裁判评价</string>
+    <string name="give_opponent_judge" translatable="false">给对手评价</string>
+    <string name="give_ball_team_judge" translatable="false">球队评价</string>
+    <string name="personnel" translatable="false">人员</string>
+    <string name="location" translatable="false">位置</string>
+    <string name="number" translatable="false">号码</string>
+    <string name="number_num">0123456789</string>
+    <string name="paying" translatable="false">已支付</string>
+    <string name="pay_order" translatable="false">支付订单</string>
+    <string name="not_this_ball_team_details" translatable="false">沒有找到该球队信息</string>
+    <string name="not_this_find_about_ball" translatable="false">沒有找到约球记录</string>
+    <string name="edit" translatable="false">编辑</string>
+    <string name="immediate_payment" translatable="false">立即支付</string>
+    <string name="money_count" translatable="false">￥%s</string>
+    <string name="edit_about_ball">编辑约球</string>
+    <!--相册选择器-->
+    <string name="back" translatable="false">返回</string>
+    <string name="all_image" translatable="false">全部图片</string>
+    <string name="preview" translatable="false">预览</string>
+    <string name="how_match_open" translatable="false">%s张</string>
+    <string name="count_sum_count" translatable="false">%s/%s</string>
+    <string name="selector" translatable="false">选择</string>
+    <string name="complete_count" translatable="false">完成（%s/%s）</string>
+    <string name="max_choose_media" translatable="false">最大选择%s张</string>
+    <string name="confirm" translatable="false">确定</string>
+    <string name="camera" translatable="false">相机</string>
+    <string name="shoot_camera" translatable="false">拍摄</string>
+    <string name="what_permission_is_must" translatable="false">%s为必要权限，请允许，否则无法使用</string>
+    <string name="memory_card" translatable="false">储存卡</string>
+    <string name="not_gain_media_photo" translatable="false">没有获取到照片</string>
+    <string name="compress_image_fail" translatable="false">压缩图片失败</string>
+    <string name="this_video_format_not_supported" translatable="false">该视频格式不支持</string>
+    <string name="crop_image_fail" translatable="false">裁剪图片失败</string>
+    <string name="video_not_crop" translatable="false">视频不支持裁剪</string>
+    <string name="file_not_exit" translatable="false">文件不存在</string>
+    <string name="crop_image_error" translatable="false">裁剪图片异常</string>
+    <string name="delete" translatable="false">删除</string>
+    <string name="delete_team_member" translatable="false">删除队员</string>
+    <string name="report" translatable="false">举报</string>
+    <string name="exit_ball_team" translatable="false">退出球队</string>
+    <string name="you_sure_exit_s_team" translatable="false">您确定退出%s球队</string>
+    <string name="you_sure_exit" translatable="false">您确定退出</string>
+    <string name="you_sure_dissolution_of_the_team_s" translatable="false">您确定解除%s球队</string>
+    <string name="weichat_friend" translatable="false">微信好友</string>
+    <string name="weichat_circle_of_friends" translatable="false">朋友圈</string>
+    <string name="qq_friend" translatable="false">朋友圈</string>
+    <string name="sin_weibo" translatable="false">新浪微博</string>
+    <string name="dissolution_of_the_team" translatable="false">解散球队</string>
+    <string name="team_in_my_details" translatable="false">队内个人信息</string>
+    <string name="uniform_number" translatable="false">球衣号码</string>
+    <string name="main_location" translatable="false">主位置（最多选1个）</string>
+    <string name="please_selector_location" translatable="false">请选择位置</string>
+    <string name="the_backup" translatable="false">替补位置（最多选3个）</string>
+    <string name="please_selector_the_backup" translatable="false">请选择替补位置</string>
+    <string name="ball_invite" translatable="false">球队邀请</string>
+
+    <string name="the_goalkeeper" translatable="false">门将</string>
+    <string name="defender" translatable="false">后卫</string>
+    <string name="left_defender" translatable="false">左后卫</string>
+    <string name="center_defender" translatable="false">中后卫</string>
+    <string name="right_defender" translatable="false">右后卫</string>
+    <string name="left_wing" translatable="false">左翼卫</string>
+    <string name="right_wing" translatable="false">右翼卫</string>
+    <string name="center_midfield" translatable="false">中场</string>
+    <string name="short_loin" translatable="false">前腰</string>
+    <string name="later_loin" translatable="false">后腰</string>
+    <string name="left_center_midfield" translatable="false">左中场</string>
+    <string name="right_center_midfield" translatable="false">右中场</string>
+    <string name="left_wing_back" translatable="false">左边卫</string>
+    <string name="right_wing_back" translatable="false">右边卫</string>
+    <string name="forward" translatable="false">前锋</string>
+    <string name="left_forward" translatable="false">左前锋</string>
+    <string name="right_forward" translatable="false">右前锋</string>
+    <string name="center_forward" translatable="false">中锋</string>
+    <string name="left_wings" translatable="false">左边锋</string>
+    <string name="right_wings" translatable="false">右边锋</string>
+
+    <string name="order_item_project_host" translatable="false">预定项目：</string>
+    <string name="order_item_time_host" translatable="false">预定日期：</string>
+    <string name="order_item_address_host" translatable="false">预定场地：</string>
+    <string name="order_item_price_host" translatable="false">总价：</string>
+    <string name="order_item_pay_time_host" translatable="false">支付剩余时间：</string>
+    <string name="wait_pay" translatable="false">待支付</string>
+    <string name="s_s" translatable="false">%s%s</string>
+    <string name="go_pay" translatable="false">去支付</string>
+    <string name="sure_user" translatable="false">确认使用</string>
+    <string name="cancel_order" translatable="false">取消订单</string>
+    <string name="judge" translatable="false">评价</string>
+    <string name="wait_judge" translatable="false">待评价</string>
+    <string name="refund_schedule" translatable="false">退款进度</string>
+    <string name="please_check_the_information_carefully" translatable="false">请认真核对信息</string>
+    <string name="order_host" translatable="false">订单：</string>
+    <string name="phone_number_host" translatable="false">手机号码：</string>
+    <string name="order_time_host" translatable="false">下单时间：</string>
+    <string name="pay_order_time_host" translatable="false">付款时间：</string>
+    <string name="order_total_prices_host" translatable="false">订单总价：</string>
+    <string name="order_practical_prices_host" translatable="false">实际支付：</string>
+    <string name="order_evaluate" translatable="false">订单评价</string>
+    <string name="give_to_mark" translatable="false">评分</string>
+    <string name="payment_has_been_received" translatable="false">已到账</string>
+    <string name="input_evaluate_content_hint" translatable="false">说说商家的亮点和不足吧~</string>
+    <string name="input_evaluate" translatable="false">填写评价</string>
+    <string name="input_max_text" translatable="false">0/140</string>
+    <string name="weichat_pay" translatable="false">微信支付</string>
+    <string name="cancel_order_body" translatable="false">您确定取消该订单</string>
+    <string name="please_selector_order_grade_rating" translatable="false">请给本次订单评分</string>
+    <string name="your_not_sed_what" translatable="false">不打算说点什么或者晒图</string>
+    <string name="about_ball_details" translatable="false">约球详情</string>
+    <string name="site" translatable="false">场地</string>
+    <string name="date" translatable="false">日期</string>
+    <string name="time" translatable="false">时间</string>
+    <string name="ball_shirt" translatable="false">球衣</string>
+    <string name="money_cash_pledge" translatable="false">场地+押金</string>
+    <string name="the_registration_team" translatable="false">报名队伍</string>
+    <string name="serve_as_a_judge" translatable="false">担任裁判</string>
+    <string name="invited_to_the_ball_about" translatable="false">应邀约球</string>
+    <string name="you_not_referee_is_request" translatable="false">您还不是裁判，是否前去申请</string>
+    <string name="your_application_for_referee_is_under_review" translatable="false">你的裁判申请正在审核，请耐心等待</string>
+    <string name="umpire" translatable="false">是否担任裁判</string>
+    <string name="not_find_wei_chat_sing" translatable="false">没有获取到微信签名</string>
+    <string name="adept" translatable="false">技巧</string>
+    <string name="tactics" translatable="false">战术</string>
+    <string name="cancel_pay" translatable="false">取消支付</string>
+    <string name="succeed_pay" translatable="false">支付成功</string>
+    <string name="sing_error" translatable="false">签名错误</string>
+    <string name="back_order" translatable="false">返回订单</string>
+    <string name="pay_succeed_transmit_friend" translatable="false">支付成功\n已经成功预定场地，可以转发给队友</string>
+    <string name="transmit_friend" translatable="false">转发队友</string>
+    <string name="application_for_drawback" translatable="false">申请退款</string>
+    <string name="cancel_about_ball" translatable="false">取消约球</string>
+    <string name="you_sure_cancel_about_ball" translatable="false">您确定取消约球，取消约球不能撤回</string>
+    <string name="please_selector_refund_cause" translatable="false">请选择退款原因：</string>
+    <string name="surrender_value" translatable="false">退还金额：</string>
+    <string name="please_selector_refund_causes" translatable="false">请选择退款理由</string>
+    <string name="refund_money_host" translatable="false">退款金额：</string>
+    <string name="expect_the_most_late" translatable="false">预计最晚%s到账</string>
+    <string name="exit_account" translatable="false">退回账户：</string>
+    <string name="exit_time" translatable="false">退回时间：</string>
+    <string name="refund_cause" translatable="false">退款理由：</string>
+    <string name="download_about_ball" translatable="false">下载踢球么</string>
+    <string name="you_friend_download_about_ball" translatable="false">您的好友邀请您下载踢球么，一起加入圈子吧</string>
+    <string name="the_team_captain" translatable="false">球队队长</string>
+    <string name="the_team_member" translatable="false">球队成员</string>
+
+    <string name="about_rule_content_1" translatable="false">球队队长发起约球，邀请其他队伍进行PK</string>
+    <string name="about_rule_content_hint" translatable="false">备注：1、只能队长有权限参加或发起约球\n2、队伍人数应与场地人数匹配</string>
+    <string name="about_rule_title_2" translatable="false">无人应邀</string>
+    <string name="about_rule_content_2" translatable="false">比赛日前一天依旧无人报名参加约球，则退回全款</string>
+
+    <string name="about_rule_title_3" translatable="false">参加约球</string>
+    <string name="about_rule_content_3" translatable="false">另一队队长可以查看发起约球的队伍情况，参加约球</string>
+
+    <string name="about_rule_title_4" translatable="false">正常完赛</string>
+    <string name="about_rule_content_4" translatable="false">两队在裁判员的支持下，完成友好比赛，完赛后平台回返回两队的押金，两队可以互相评论</string>
+
+    <string name="about_rule_title_5" translatable="false">违约</string>
+    <string name="about_rule_content_5" translatable="false">一方违约没有进行约球，则违约方不退款，守约方则退回全款</string>
+
+    <string name="about_rule_title_6" translatable="false">@string/cancel</string>
+    <string name="about_rule_content_6" translatable="false">发起方或者参加方如果情况不能参加，可以在比赛的24小时前取消约球活动。平台将予以退全款</string>
+    <string name="not_find_evaluation" translatable="false">没有找到评论列表</string>
+    <string name="please_post_evaluation" translatable="false">请发表评价</string>
+    <string name="referee_details" translatable="false">裁判详情</string>
+    <string name="invite_a_referee" translatable="false">邀约裁判</string>
+    <string name="count_s" translatable="false">%s次</string>
+    <string name="strip_s" translatable="false">%s条</string>
+    <string name="law_enforcement_record" translatable="false">执法记录</string>
+    <string name="law_enforcement_evaluate" translatable="false">执法评价</string>
+    <string name="invite_up_to_three_judges_at_time" translatable="false">每次最多邀请三个裁判</string>
+    <string name="invite_succeed" translatable="false">邀请成功</string>
+    <string name="referee_evaluation" translatable="false">裁判评价</string>
+    <string name="team_evaluation" translatable="false">球队评价</string>
+    <string name="opponent_evaluation" translatable="false">对手评价</string>
+    <string name="tell_me_what_you_think" translatable="false">说说你的想法~</string>
+    <string name="please_tell_me_what_you_think" translatable="false">请说说你的想法</string>
+    <string name="refused_to_join_the" translatable="false">拒绝加入</string>
+    <string name="join_the_team" translatable="false">加入球队</string>
+    <string name="evaluate_list" translatable="false">评价列表</string>
+    <string name="update_content" translatable="false">1.首页增加资讯、训练等模块；\n2.赛事模块对部分细节进行完善；\n3.增加新功能模块：场馆、约球、裁判、球队等；\n4.修复部分遗留bug；</string>
+    <string name="share_game_video_content" translatable="false">快来踢球么一起看比赛，%svs%s</string>
+    <string name="share_game_video_title" translatable="false">看球啦</string>
+    <string name="match_result" translatable="false">赛况记录</string>
+    <string name="about_ball_condition" translatable="false">约球情况</string>
+    <string name="must_fill_in" translatable="false">（必填）</string>
+    <string name="no_fill_in" translatable="false">（非必填）</string>
+    <string name="the_field_of" translatable="false">现场情况</string>
+    <string name="please_select_your_presence" translatable="false">请选择到场情况</string>
+    <string name="score" translatable="false">比分</string>
+    <string name="please_input_score" translatable="false">请输入比分</string>
+    <string name="number_digits" translatable="false">0123456789</string>
+    <string name="add_record" translatable="false">添加记录</string>
+    <string name="add_team_records" translatable="false">添加球队记录</string>
+    <string name="players_choose" translatable="false">球员选择</string>
+    <string name="players_team" translatable="false">球队选择</string>
+    <string name="please_select_team_members" translatable="false">请选择队员</string>
+    <string name="please_select_the_time" translatable="false">请选择时间</string>
+    <string name="time_selection" translatable="false">时间选择</string>
+    <string name="behavior" translatable="false">行为</string>
+    <string name="please_selector_team_behavior" translatable="false">请选择球员行为</string>
+    <string name="update_content_s" translatable="false">更新内容:</string>
+    <string name="update_now" translatable="false">立即更新</string>
+    <string name="updating" translatable="false">正在更新...</string>
+    <string name="unknown" translatable="false">未知</string>
+    <string name="not_find_longitude_and_latitude" translatable="false">没有获取到经纬度</string>
+    <string name="position_details" translatable="false">位置详情</string>
+    <string name="not_find_this_match_result" translatable="false">没有找到这场比赛赛况记录</string>
+    <string name="please_selector_score" translatable="false">请选择比分</string>
+    <string name="present_situation" translatable="false">到场情况</string>
+    <string name="score_situation" translatable="false">比分情况</string>
+    <string name="schedule" translatable="false">赛程</string>
+    <string name="play_back" translatable="false">回放</string>
+    <string name="data" translatable="false">数据</string>
+    <string name="the_ticket" translatable="false">购票</string>
+    <string name="how_match_player" translatable="false">%s号球员：</string>
+    <string name="behavior_selector" translatable="false">行为选择</string>
+    <string name="bing_three_phone_number" translatable="false">绑定手机号</string>
+    <string name="you_not_band_phone_number_please_band" translatable="false">请绑定手机号，否则无法登陆</string>
+    <string name="go_band" translatable="false">去绑定</string>
+    <string name="site_maintenance" translatable="false">抱歉，场地维护中...</string>
+    <string name="attention" translatable="false">关注</string>
+    <string name="hot_topic" translatable="false">热门话题</string>
+    <string name="plaza" translatable="false">广场</string>
+    <string name="dynamic_details" translatable="false">动态详情</string>
+    <string name="dynamic_edit" translatable="false">动态编辑</string>
+    <string name="comment" translatable="false">评论</string>
+    <string name="no_dynamic_details_were_obtained" translatable="false">没有获取到动态详情</string>
+    <string name="no_dynamic_were_obtained" translatable="false">没有获取到动态Id</string>
+    <string name="say_something" translatable="false">说点什么吧~</string>
+    <string name="publish" translatable="false">发布</string>
+    <string name="selector_topic" translatable="false">选择话题</string>
+    <string name="you_are_not_going_to_say_anything" translatable="false">您不打算说点什么</string>
+    <string name="report_reasons" translatable="false">举报原因</string>
+    <string name="attentionning" translatable="false">已关注</string>
+    <string name="image_preview" translatable="false">图片预览</string>
+    <string name="there_are_no_previews_image" translatable="false">没有可以预览的图片</string>
+    <string name="there_are_no_previews_video" translatable="false">没有可以预览的视频</string>
+    <string name="please_selector_report_case" translatable="false">请选择举报原因</string>
+    <string name="you_sure_delete_community" translatable="false">你确定删除该动态</string>
+    <string name="attention_s" translatable="false">\t关注 %s\t|</string>
+    <string name="fans_s" translatable="false">\t粉丝 %s</string>
+    <string name="your_are_banding_weichat_code" translatable="false">您已经绑定了微信号</string>
+    <string name="attack" translatable="false">进攻</string>
+    <string name="ball_possession" translatable="false">控球率</string>
+    <string name="corner_kick" translatable="false">角球</string>
+    <string name="danger_attack" translatable="false">危险进攻</string>
+    <string name="yellow_card" translatable="false">黄牌</string>
+    <string name="red_card" translatable="false">红牌</string>
+    <string name="foul" translatable="false">犯规</string>
+    <string name="free_kick" translatable="false">任意球</string>
+    <string name="offside" translatable="false">越位</string>
+    <string name="passing_completion" translatable="false">传球成功率</string>
+    <string name="shoot" translatable="false">射门</string>
+    <string name="shoot_on_target" translatable="false">射正</string>
+    <string name="all_end" translatable="false">全场结束</string>
+    <string name="goal" translatable="false">进球</string>
+    <string name="point_sphere" translatable="false">点球</string>
+    <string name="assist" translatable="false">助攻</string>
+    <string name="outs" translatable="false">赛况</string>
+    <string name="match">比赛</string>
+    <string name="start" translatable="false">开始</string>
+    <string name="event_filter" translatable="false">赛事筛选</string>
+    <string name="ranking" translatable="false">排名</string>
+    <string name="chang" translatable="false">场</string>
+    <string name="flat" translatable="false">胜/平/负</string>
+    <string name="into_the_loss" translatable="false">进/失</string>
+    <string name="integral" translatable="false">积分</string>
+    <string name="troops" translatable="false">队伍</string>
+    <string name="match_filtrate" translatable="false">赛事筛选</string>
+    <string name="player" translatable="false">球员</string>
+    <string name="goals_scored" translatable="false">进球数</string>
+    <string name="assists_the_number" translatable="false">助攻数</string>
+    <string name="related_report" translatable="false">相关报道</string>
+    <string name="community">社区</string>
+    <string name="not_find_this_match" translatable="false">没有找到该比赛</string>
+    <string name="community_title" translatable="false">踢球么社区，十万球友日常分享新鲜事</string>
+    <string name="share_about_about_details_title" translatable="false">你的好友喊你一起踢球啦</string>
+    <string name="match_evaluate" translatable="false">比赛评价</string>
+    <string name="please_send_evaluation" translatable="false">请发表评价</string>
+    <string name="about_ball_rule_1" translatable="false"><Data><![CDATA[<font color="#1D1D1D" translatable="false">球队队长</font>]]></Data>
+        进入<Data><![CDATA[<font color="#1D1D1D" translatable="false">场馆模块</font>]]></Data>
+        ，选择<Data><![CDATA[<font color="#1D1D1D" translatable="false">场地和时间</font>]]></Data>进行
+        <Data><![CDATA[<font color="#1D1D1D" translatable="false">发起约球</font>]]></Data> </string>
+    <string name="about_ball_rule_2" translatable="false"><Data><![CDATA[<font color="#1D1D1D" translatable="false">球队队长</font>]]></Data>进入
+        <Data><![CDATA[<font color="#1D1D1D" translatable="false">约球模块</font>]]></Data>，选择其他球队发起的 约球进行
+        <Data><![CDATA[<font color="#1D1D1D" translatable="false">应邀约球</font>]]></Data></string>
+    <string name="about_ball_rule_3" translatable="false"><Data><![CDATA[<font color="#1D1D1D" translatable="false">双方球队</font>]]></Data>正常完成约球，约球完成，双方可互 相评价</string>
+    <string name="about_ball_rule_4" translatable="false"><Data><![CDATA[<font color="#1D1D1D" translatable="false">比赛前24小时</font>]]></Data>依旧无人应邀报名参加您发起的约球，我们将给您
+        <Data><![CDATA[<font color="#1D1D1D" translatable="false">退回全款</font>]]></Data></string>
+    <string name="about_ball_rule_5" translatable="false">如果您选择了约球，但是在比赛当天违约没有到场进行比赛，我们将不会给您退款</string>
+    <string name="about_ball_rule_6" translatable="false">发起约球或参加约球如有特殊情况可以在比赛前24小时进行取消，我们将给您
+        <Data><![CDATA[<font color="#1D1D1D" translatable="false">退全款</font>]]></Data></string>
+    <string name="situation" translatable="false">特殊情况</string>
+    <string name="you_are_not_captain_to_create_team" translatable="false">您不是球队队长，是否前往创建球队</string>
+    <string name="data_json" translatable="false">data.json</string>
+    <string name="this_order_not_cancel" translatable="false">该订单不能取消</string>
+    <string name="failed_to_download_picture" translatable="false">下载图片失败</string>
+    <string name="succeed_to_download_picture" translatable="false">图片已保存到图库</string>
+    <string name="camera_shooting_ailed_please_try_again" translatable="false">相机拍摄失败，请重试</string>
+    <string name="not_selector_video_and_image" translatable="false">只能选择单个视频或者纯多图</string>
+    <string name="video_deals_with_video" translatable="false">视频处理失败</string>
+    <string name="abnormal_illegal_state" translatable="false">非法状态异常</string>
+    <string name="not_find_this_notification" translatable="false">找不到该通知</string>
+    <string name="find_the_following_recommendations_for_you" translatable="false">为您找到以下推荐内容</string>
+    <string name="the_content_has_not_been_found_yet" translatable="false">暂时没有找到“%s”相关内容，请重新输入搜索信息</string>
+    <string name="select_the_starting_team" translatable="false">选择发起球队</string>
+    <string name="contact_way" translatable="false">联系方式</string>
+    <string name="please_input_contact_way" translatable="false">请输入联系方式</string>
+    <string name="sure_launch" translatable="false">确定发起</string>
+    <string name="selector_venue_time_than_new_time">选择场馆时间必须大于现在时间</string>
+    <string name="book_a_venue_not_selector" translatable="false">预定场地（非必选）</string>
+    <string name="venue_list" translatable="false">场馆列表</string>
+    <string name="you_have_unconfirmed_dates" translatable="false">您有未确定的场次</string>
+    <string name="selector_appointment_has_been_made" translatable="false">选择已发起的约球</string>
+    <string name="selector_appointment_new_made" translatable="false">发起新约球</string>
+    <string name="venue_not_setting" translatable="false">场馆未定</string>
+    <string name="not_sure" translatable="false">未知</string>
+    <string name="not_settings" translatable="false">未定</string>
+    <string name="about_ball_pay_succeed_dialog_body">您发起约球的时间已自动同步为您选择的场地时间，请留意</string>
+    <string name="name_and_referee">%s\n%s</string>
+    <string name="ticket_mall">售票商城</string>
+    <string name="add">+</string>
+    <string name="subtract">-</string>
+    <string name="standards">规格</string>
+    <string name="graphic_introduction">图文介绍</string>
+    <string name="the_ticket_information">售票须知</string>
+    <string name="not_find_tick_mall_message">没有找到该售票信息</string>
+    <string name="buy_ticket">购票</string>
+    <string name="out_of_print">已售完</string>
+    <string name="not_of_print">未开售</string>
+    <string name="one_count">/张</string>
+    <string name="one">1</string>
+    <string name="now_buy">立即购买</string>
+    <string name="current_vote_surplus">当前票数剩余%s张</string>
+    <string name="my_tickets">我的门票</string>
+    <string name="sure_order">确定订单</string>
+    <string name="commit_order">提交订单</string>
+    <string name="sure_buy">确认购买</string>
+    <string name="buy_count">购买数量</string>
+    <string name="create_order_fail">创建订单失败</string>
+    <string name="sum_price_s">总价：%s</string>
+    <string name="click_go_in_code">点击查看二维码进场</string>
+    <string name="order_pay">订单支付</string>
+    <string name="how_money_please_pay">价格：%s&#160;&#160;请支付</string>
+    <string name="pay_order_hint_back_body">您的订单尚未支付，确定要离开当前页面吗？</string>
+    <string name="order_ten_minute_cancel">订单在%s内自动取消，请及时支付</string>
+    <string name="default_minute_values_cancel">10分钟</string>
+    <string name="good_info">商品信息：</string>
+    <string name="please_input_refund_cause">请输入退款理由</string>
+    <string name="emoji_data" translatable="false">[啊],[爱慕],[爱你],[白眼],[闭眼],[闭眼笑],[闭嘴],[不敢看],[不高兴],[不舒服],[馋嘴],[吃惊],[打喷嚏],[大哭],[大哇啊],[大小眼],[大笑],[挡嘴],[倒笑],[尴尬],[尴尬笑],[高兴],[鼓掌],[害怕],[憨笑],[好难过],[见钱眼开],[惊恐],[惊讶],[噘嘴],[可爱],[哭泣],[哭笑不得],[酷],[困],[困惑],[冷],[冷汗],[脸红],[流口水],[露齿],[露齿笑],[骂人],[没表情],[难过],[难受],[牛仔],[扭曲],[哦],[哦哦],[排队],[抛媚眼],[撇嘴],[亲],[亲亲],[亲一口],[热],[认真看],[色],[生病],[生气],[失望],[受伤],[舒服],[睡觉],[说谎],[思考],[太难过],[天使],[挑眉],[吐],[吐舌头],[哇啊],[微笑],[委屈],[无表情],[无语],[想吐],[笑],[笑哭],[笑一下],[斜眼看],[斜眼笑],[星星],[嘘],[糟糕],[眨眼],[炸脑子],[皱眉]</string>
+    <string name="sure_refund_cause">确认申请退款</string>
+    <string name="order_no">订单号：%s</string>
+    <string name="other">其它</string>
+    <string name="you_pay_succeed_please_my_tickets_read">您已经完成支付，可以在“我的门票”查看信息</string>
+    <string name="back_my_ticket">返回我的门票</string>
+    <string name="tickets_details">票务详情</string>
+    <string name="unable_to_obtain_location_information">无法获取位置信息，请给予获取位置信息权限</string>
+    <string name="order_is_pay">订单已支付</string>
+    <string name="order_is_refund">订单已退款</string>
+    <string name="order_error">订单异常</string>
+    <string name="home">首页</string>
+</resources>

@@ -1,0 +1,2 @@
+include ':app', ':home', ':match', ':community', ':my', ':comm'
+rootProject.name='SubassemblyApplication'
